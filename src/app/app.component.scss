@@ -15,21 +15,26 @@
             display: block;
             .type {
                 display: block;
+                width: 100%;
+                margin-top: 2rem;
                 .type-header {
+                    width: 24%;
                     font-size: 1.5rem;
                     display: inline-block;
                 }
                 .type-selections {
                     display: inline-block;
-                    margin-left: 2rem;
+                    margin-left: 1rem;
+                    width: 70%;
                     .mark {
-                        margin: 1rem;
+                        margin: 0.5rem;
+                        display: inline-block;
                         border-radius: 4px;
                         background-color: lightblue;
                         border: 1px solid black;
                     }
                     .pair {
-                        margin: 1rem;
+                        margin: 0.5rem;
                         display: inline-block;
                         border-radius: 4px;
                         background-color: lightpink;
@@ -40,7 +45,7 @@
                         }
                         .value {
                             display: inline-block;
-                            margin-left: 1rem;
+                            margin-left: 0.5rem;
                             color: blue;;
                         }
                     }
