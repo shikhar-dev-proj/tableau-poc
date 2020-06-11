@@ -1,0 +1,51 @@
+.app-container {
+    height: 100%;
+    .viz-container {
+        height: 100%;
+        .tableau-placeholder {
+            margin: 20px;
+        }
+    }
+    .markDetails {
+        .header {
+            display: block;
+            font-size: 2rem;
+        }
+        .selection-container {
+            display: block;
+            .type {
+                display: block;
+                .type-header {
+                    font-size: 1.5rem;
+                    display: inline-block;
+                }
+                .type-selections {
+                    display: inline-block;
+                    margin-left: 2rem;
+                    .mark {
+                        margin: 1rem;
+                        border-radius: 4px;
+                        background-color: lightblue;
+                        border: 1px solid black;
+                    }
+                    .pair {
+                        margin: 1rem;
+                        display: inline-block;
+                        border-radius: 4px;
+                        background-color: lightpink;
+                        border: 1px solid black;
+                        .name {
+                            display: inline-block;
+                            font-weight: bolder;
+                        }
+                        .value {
+                            display: inline-block;
+                            margin-left: 1rem;
+                            color: blue;;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
